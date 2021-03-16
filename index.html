@@ -4,6 +4,7 @@
 <head>
     <title>Lucena Engenharia</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="code.js"></script>
 </head>
 
 <body>
@@ -18,24 +19,48 @@
         <div id="main">
             <h1>Portifólio</h1>
             <div id="linha"></div>
-            <div class="box">Projeto 1</div>
-            <div class="box">Projeto 2</div>
+            <div class="box">
+                <img class="imgprojetos" src="imagens/Apresentação1/Estrutural.png">
+                <div class="textprojetosright">
+                    <h2>PROJETOS ESTRUTURAIS</h2>
+                    <div id="linha1"></div>
+                    <p>Soluções estruturais em concreto armado seguras e ecônomicas.
+                        Observando as considerações das normas ABNT assim como as boas
+                        práticas de projetos estruturais.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="textprojetosleft">
+                    <h2>COMPATIBILIZAÇÃO DE PROJETOS</h2>
+                    <div id="linha1"></div>
+                    <p>Compatibilização com projetos complementares como hidrossanitário elétrico.
+                        É importante que o projestista preveja as interferências entre as disciplinas
+                        (Estrutural, Hidrossanitário e Elétrico) para que não ocorram surpresas indesejadas na obra.
+                    </p>
+                </div>
+                <img class="imgprojetos" src="imagens/Apresentação1/Compatibilização.png">
+            </div>
             <div class="box">Projeto 4</div>
         </div>
 
         <div id="sideright">
-            <button>
-                1
+            <button onclick="telefone()">
+                Telefone
             </button>
-            <button>
-                2
+            <div id="telefone"></div>
+            <button onclick="email()">
+                E-mail
             </button>
-            <button>
-                3
-            </button>
-            <button>
-                4
-            </button>
+            <div id="email"></div>
+            <a href="https://www.instagram.com/lucena.eng/"><button>
+                    Instagram
+                </button></a>
+            <div></div>
+            <a href="https://www.linkedin.com/in/robertolucena/"><button>
+                    LinkedIn
+                </button></a>
+            <div></div>
 
         </div>
     </div>
