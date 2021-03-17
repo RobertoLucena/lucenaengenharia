@@ -17,16 +17,16 @@ p{
 }
 
 button{
-    width: 8vw;
-    height: 8vw;
+    width: 7vw;
+    height: 7vw;
     border-radius: 50%;
     cursor: pointer;
     background-color: black;
 }
 
 button:hover{
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
     border-radius: 50%;
     transition: all 0.3s ease;
     cursor: pointer;
