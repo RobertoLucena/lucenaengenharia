@@ -21,6 +21,7 @@ button{
     height: 8vw;
     border-radius: 50%;
     cursor: pointer;
+    background-color: black;
 }
 
 button:hover{
@@ -29,27 +30,46 @@ button:hover{
     border-radius: 50%;
     transition: all 0.3s ease;
     cursor: pointer;
+    background-color: black;
 }
 
 .box{
     border: 0px solid blue;
-    padding: 5px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #eee;
+    border-radius: 1.5vw;
+
 }
 
-.imgprojetos{
+.imgprojetosleft{
     width: 18vw; 
-    border-radius: 50%;
+    border-radius: 1.5vw 50% 50% 1.5vw;
     border: 0.5px solid black;
 }
 
-.imgprojetos:hover{
+.imgprojetosleft:hover{
     transition: all 0.3s ease;
     width: 25vw; 
     border-radius: 0%;
     border: 0.5px solid black;
+    border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+}
+
+.imgprojetosright{
+    width: 18vw; 
+    border-radius: 50% 1.5vw 1.5vw 50%;
+    border: 0.5px solid black;
+}
+
+.imgprojetosright:hover{
+    transition: all 0.3s ease;
+    width: 25vw; 
+    border-radius: 0%;
+    border: 0.5px solid black;
+    border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
 }
 
 .textprojetosright{
@@ -57,8 +77,9 @@ button:hover{
     flex-direction: column;
     align-items: flex-end;
     align-content: flex-end;
-    border: 1px solid black;
+    border: 0px solid black;
     width: 50VW;
+    margin-right: 0.5vw;
 }
 
 .textprojetosleft{
@@ -66,20 +87,22 @@ button:hover{
     flex-direction: column;
     align-items: flex-start;
     align-content: flex-start;
-    border: 1px solid black;
+    border: 0px solid black;
     width: 50VW;
+    margin-left: 0.5vw;
 }
 
 #principal{
     display: flex;
     width: 100vw;
-    height: 100vh;    
+    height: 100vh; 
+    background-color: #C9C9C9;
 }
 
 #side{
     width: 20vw;
     height: 100vh;  
-    background-color: gray;
+    background-color:black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -90,13 +113,14 @@ button:hover{
     width: 70vw;
     height: 100vh; 
     border: 0px solid blue; 
+    
 }
 
 #sideright{
     width: 10vw;
     height: 100vh;  
     border: 0px solid red;
-    background-color: #eee;
+    background-color: #901615;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +129,8 @@ button:hover{
 
 #perfil{
     width: 18vw; 
-    border-radius: 50%;  
+    border-radius: 50%; 
+    border: 1px solid gray; 
 }
 
 #linha{
