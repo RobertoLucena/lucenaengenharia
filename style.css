@@ -1,6 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    
+}
+
+body{
+    background-color: #C9C9C9;
 }
 
 h1{
@@ -17,16 +22,16 @@ p{
 }
 
 button{
-    width: 7vw;
-    height: 7vw;
+    width: 6.5vw;
+    height: 6.5vw;
     border-radius: 50%;
     cursor: pointer;
     background-color: black;
 }
 
 button:hover{
-    width: 8vw;
-    height: 8vw;
+    width: 7.5vw;
+    height: 7.5vw;
     border-radius: 50%;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -34,7 +39,6 @@ button:hover{
 }
 
 .box{
-    border: 0px solid blue;
     margin: 10px;
     display: flex;
     flex-direction: row;
@@ -62,6 +66,7 @@ button:hover{
     width: 18vw; 
     border-radius: 50% 1.5vw 1.5vw 50%;
     border: 0.5px solid black;
+
 }
 
 .imgprojetosright:hover{
@@ -95,22 +100,25 @@ button:hover{
 #principal{
     display: flex;
     width: 100vw;
-    height: 100vh; 
+    height: 100%; 
     background-color: #C9C9C9;
+    align-items: center;
 }
 
 #side{
-    width: 20vw;
-    height: 100vh;  
-    background-color:black;
+    width: 15vw;
+    height: 97vh;  
+    background-color:rgb(32, 29, 29);
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 1vh;
+    border-radius: 1.5vw;
 }
 
 #main{
-    width: 70vw;
+    width: 75vw;
     height: 100vh; 
     border: 0px solid blue; 
     
@@ -118,19 +126,22 @@ button:hover{
 
 #sideright{
     width: 10vw;
-    height: 100vh;  
+    height: 97vh;  
     border: 0px solid red;
     background-color: #901615;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-right: 2.5vh;
+    border-radius: 1.5vw;
 }
 
 #perfil{
-    width: 18vw; 
+    width: 14vw; 
     border-radius: 50%; 
     border: 1px solid gray; 
+    margin-top: 1vh;
 }
 
 #linha{
