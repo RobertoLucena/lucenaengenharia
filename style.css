@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-    font-size: 2.8vw;
+    font-size: 2vw;
 }
 
 p{
@@ -39,39 +39,40 @@ button:hover{
 }
 
 .box{
-    margin: 10px;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-top: 2vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #eee;
     border-radius: 1.5vw;
-
+    width: 67vw;
 }
 
 .imgprojetosleft{
-    width: 18vw; 
+    width: 15vw; 
     border-radius: 1.5vw 50% 50% 1.5vw;
     border: 0.5px solid black;
 }
 
 .imgprojetosleft:hover{
     transition: all 0.3s ease;
-    width: 25vw; 
+    width: 20vw; 
     border-radius: 0%;
     border: 0.5px solid black;
     border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
 }
 
 .imgprojetosright{
-    width: 18vw; 
+    width: 15vw; 
     border-radius: 50% 1.5vw 1.5vw 50%;
     border: 0.5px solid black;
-
 }
 
 .imgprojetosright:hover{
     transition: all 0.3s ease;
-    width: 25vw; 
+    width: 20vw; 
     border-radius: 0%;
     border: 0.5px solid black;
     border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
@@ -113,7 +114,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 1vh;
+    margin-left: 2vh;
     border-radius: 1.5vw;
 }
 
@@ -121,7 +122,7 @@ button:hover{
     width: 75vw;
     height: 100vh; 
     border: 0px solid blue; 
-    
+    margin-left: 1vw;
 }
 
 #sideright{
@@ -138,7 +139,7 @@ button:hover{
 }
 
 #perfil{
-    width: 14vw; 
+    width: 13vw; 
     border-radius: 50%; 
     border: 1px solid gray; 
     margin-top: 1vh;
